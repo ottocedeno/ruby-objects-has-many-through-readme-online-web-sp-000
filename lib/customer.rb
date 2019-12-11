@@ -21,4 +21,5 @@ class Customer
 
 end
 
+otto = Customer.new("Otto", 34)
 binding.pry
