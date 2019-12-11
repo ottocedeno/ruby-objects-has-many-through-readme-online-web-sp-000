@@ -20,3 +20,5 @@ class Customer
   end
 
 end
+
+binding.pry
