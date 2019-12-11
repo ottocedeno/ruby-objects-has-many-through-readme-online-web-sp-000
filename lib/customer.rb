@@ -35,4 +35,5 @@ end
 
 otto = Customer.new("Otto", 34)
 josh = Waiter.new("Josh", 4)
+otto.new_meal(josh, 100, 15)
 binding.pry
