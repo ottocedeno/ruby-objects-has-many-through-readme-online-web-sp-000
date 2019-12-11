@@ -26,8 +26,6 @@ class Customer
 
 end
 
-end
-
 otto = Customer.new("Otto", 34)
 josh = Waiter.new("Josh", 4)
 binding.pry
