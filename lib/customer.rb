@@ -23,11 +23,11 @@ class Customer
     Meal.all.select do |meal|
     meal.customer == self
   end
-  
+
 end
 
 end
 
 otto = Customer.new("Otto", 34)
-
+josh = Waiter.new("Josh", 4)
 binding.pry
